@@ -2,11 +2,12 @@ Summary:	Utility for icon theme generation
 Summary(pl):	Narzêdzie do generowania motywów ikon
 Name:		icon-slicer
 Version:	0.3
-Release:	1
+Release:	2
 License:	MIT
 Group:		Development/Tools
 Source0:	ftp://distfiles.pld-linux.org/src/%{name}-%{version}.tar.gz
 # Source0-md5:	5c5374d4f265b0abe4daef1d03f87104
+Patch0:		%{name}-0.3-attachpoints.patch
 BuildRequires:	gtk+2-devel
 BuildRequires:	pkgconfig
 BuildRequires:	popt-devel
@@ -22,6 +23,7 @@ kursorów libXcursor.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
