@@ -8,6 +8,7 @@ Group:		Development/Tools
 Source0:	ftp://distfiles.pld-linux.org/src/%{name}-%{version}.tar.gz
 # Source0-md5:	5c5374d4f265b0abe4daef1d03f87104
 BuildRequires:	gtk+2-devel
+BuildRequires:	pkgconfig
 BuildRequires:	popt-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
