@@ -1,5 +1,5 @@
 Summary:	Utility for icon theme generation
-Summary(pl):	Narz阣zie do generowania motyw體 ikon
+Summary(pl.UTF-8):   Narz臋dzie do generowania motyw贸w ikon
 Name:		icon-slicer
 Version:	0.3
 Release:	2
@@ -17,9 +17,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 icon-slicer is a utility for generating icon themes and libXcursor
 cursor themes.
 
-%description -l pl
-icon-slicer to narz阣zie do generowania motyw體 ikon oraz motyw體
-kursor體 libXcursor.
+%description -l pl.UTF-8
+icon-slicer to narz臋dzie do generowania motyw贸w ikon oraz motyw贸w
+kursor贸w libXcursor.
 
 %prep
 %setup -q
