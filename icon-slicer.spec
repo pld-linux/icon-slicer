@@ -1,5 +1,5 @@
 Summary:	Utility for icon theme generation
-Summary(pl.UTF-8):   Narzędzie do generowania motywów ikon
+Summary(pl.UTF-8):	Narzędzie do generowania motywów ikon
 Name:		icon-slicer
 Version:	0.3
 Release:	2
